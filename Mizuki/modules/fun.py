@@ -308,7 +308,7 @@ __help__ = """
  • `/roll`*:* Roll a dice
  • `/rlg`*:* Join ears, nose, mouth and create an emoji
  • `/shout <keyword>`*:* write anything you want to give loud shout
- • `/send <text>`*:* sends the text you given to the group by Mizuki
+ • `/send <text>`*:* sends the text you given to the group by Hatsune Miku
  • `/weebify <text>`*:* returns a weebified text
  • `/sanitize`*:* always use this before `/pat` or any contact
  • `/pat`*:* pats a user, or get patted

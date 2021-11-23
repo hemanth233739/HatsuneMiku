@@ -1,5 +1,5 @@
 __help__ = """
-*Mizuki - A Powerful Telegram Group Manager 🎶
+*Hatsune Miku - A Powerful Telegram Group Manager 🎶
 
 Powerful Abilities*
 
@@ -9,8 +9,8 @@ Powerful Abilities*
 
 • Youtube Downloader 🎵
 
-Developer @ImJanindu 🇱🇰
+Developer @ZenitsuID 🇲🇨
 
-Github [ImJanindu](https://github.com/ImJanindu)"""
+Github [ImJanindu](https://github.com/ZenitsuXD)"""
 
-__mod_name__ = "About 🇱🇰"
+__mod_name__ = "About 🇲🇨"
