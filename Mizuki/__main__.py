@@ -76,14 +76,15 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT =" *hello! {},*my name is lugia❄️*
+PM_START_TEXT = """
+ *hello! {},*my name is lugia❄️*
 *I am an Anime themed advance group management bot with a lot of New Features.*
 ┏━━━━━━━━━━━━━━━━
 ┣ ☫ *Uptime: {}
 ┣ ☫ {} users, across {} chats*.
 ┗━━━━━━━━━━━━━━━━━
 ☫ Checkout The Help Buttons To Check My Abilities 𖤐𖤐
-"
+"""
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm an Anime themed advance group management bot, here to help you get around and keep the order in your groups!
