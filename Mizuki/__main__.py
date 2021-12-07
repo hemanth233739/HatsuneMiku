@@ -77,8 +77,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = " 
-HI, I am LUGIA
-*hello! {},*
+*Hi! {},*my name is lugia❄️*
 *I am an Anime themed advance group management bot with a lot of New Features.*
 ┏━━━━━━━━━━━━━━━━
 ┣ ☫ *Uptime: {}
