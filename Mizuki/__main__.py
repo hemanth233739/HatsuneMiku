@@ -76,8 +76,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = " 
-*Hi! {},*my name is lugia❄️*
+PM_START_TEXT = "*hello! {},*my name is lugia❄️*
 *I am an Anime themed advance group management bot with a lot of New Features.*
 ┏━━━━━━━━━━━━━━━━
 ┣ ☫ *Uptime: {}
