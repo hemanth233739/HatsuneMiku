@@ -76,11 +76,18 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = "Hi {}, my name is {} 👸\n\nI'm a next gen powerful group manager bot. Made by [ZenitsuID 🇲🇨](t.me/ZenitsuID)\n\nHit /help to find my list of available commands"
-
+PM_START_TEXT = "Hey There, I'm [Lugia](https://telegra.ph/file/f82132e4e89b4267ca4d8.jpg)
+*hello! {},*
+*I am an Anime themed advance group management bot with a lot of New Features.*
+┏━━━━━━━━━━━━━━━━
+┣ ☫ *Uptime: {}
+┣ ☫ {} users, across {} chats*.
+┗━━━━━━━━━━━━━━━━━
+☫ Checkout The Help Buttons To Check My Abilities 𖤐𖤐
+"
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a group management bot, here to help you get around and keep the order in your groups!
+I'm an Anime themed advance group management bot, here to help you get around and keep the order in your groups!
 
 *Main* commands available:
  ✪ /help: PM's you this message.
@@ -95,9 +102,9 @@ I'm a group management bot, here to help you get around and keep the order in yo
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/08ca1aa2e841bf438b339.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/f82132e4e89b4267ca4d8.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [@ZenitsuID](t.me/ZenitsuID)"""
+DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [🕊ʜɢ [ᴛᴇᴀᴍ ᴍᴏɴꜱᴛᴇʀ]☯️🕊](t.me/HEMANTHGAMING1K)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -214,7 +221,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Hatsune Miku to your Group",
+                                text="➕ Add Lugia ❄️ to your Group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -227,12 +234,12 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="📌 Updates Channel",
-                                url="https://t.me/ggg",
+                                url="https://t.me/TeamMonsterUpdates",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🇲🇨 Developer", url="https://github.com/ZenitsuXD"
+                                text="💻 Developer", url="https://t.me/HEMANTHGAMING1K"
                             ),
                         ],
                     ]
