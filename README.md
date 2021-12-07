@@ -19,3 +19,5 @@ clone from repo [Mizuki](https://github.com/InukaAsith/Mizuki)
 The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
 This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 And thanks also to all the repo on github
+
+https://heroku.com/deploy?template=https://github.com/hemanth233739/HatsuneMiku
